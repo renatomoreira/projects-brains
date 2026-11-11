@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "projects-brains",
+  "description": "Second-brain structure for AI coding agents: one isolated repository per company or area, plus a mega-brain that reads them all",
+  "owner": {
+    "name": "Renato Moreira"
+  },
+  "plugins": [
+    {
+      "name": "projects-brains",
+      "description": "Skill brains-setup: builds the brains folder structure and, optionally, private GitHub repositories",
+      "source": "./plugins/projects-brains",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "projects-brains",
+  "description": "Builds a second-brain structure for AI coding agents: one isolated repository per company or area, plus a mega-brain that reads them all",
+  "version": "1.0.0",
+  "author": {
+    "name": "Renato Moreira"
+  },
+  "license": "MIT",
+  "keywords": ["second-brain", "agents-md", "context", "memory", "organization"]
+}
