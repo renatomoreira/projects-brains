@@ -31,7 +31,7 @@ In Claude Code:
 /plugin install projects-brains@projects-brains
 ```
 
-Then ask: *"set up my brains"*, or call the skill directly with `/brains-setup`. It asks where to put them, which fronts you want and whether to create GitHub repositories, shows a dry run, and only writes after you confirm.
+Then ask: *"set up my brains"*, or call the skill directly with `/projects-brains:brains-setup`. It asks where to put them, which fronts you want and whether to create GitHub repositories, shows a dry run, and only writes after you confirm.
 
 You can also run the script without Claude:
 
