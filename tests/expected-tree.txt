@@ -1,3 +1,4 @@
+./acme/.claude/rules/new-project.md
 ./acme/.claude/settings.json
 ./acme/.gitignore
 ./acme/AGENTS.md
@@ -8,6 +9,7 @@
 ./acme/memory/sessions/.gitkeep
 ./acme/memory/topics/.gitkeep
 ./acme/projects/.gitkeep
+./mega-brain/.claude/rules/new-project.md
 ./mega-brain/.claude/settings.json
 ./mega-brain/.gitignore
 ./mega-brain/AGENTS.md
@@ -21,6 +23,7 @@
 ./mega-brain/memory/MEMORY.md
 ./mega-brain/memory/sessions/.gitkeep
 ./mega-brain/memory/topics/.gitkeep
+./personal/.claude/rules/new-project.md
 ./personal/.claude/settings.json
 ./personal/.gitignore
 ./personal/AGENTS.md

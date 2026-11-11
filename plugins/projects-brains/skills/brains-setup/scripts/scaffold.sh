@@ -20,6 +20,7 @@ MEGA="mega-brain"
 GITHUB=0
 DRY=0
 TODAY="$(date +%Y-%m-%d)"
+RULE_TEMPLATE="$(cd "$(dirname "$0")/.." && pwd)/templates/new-project-rule.md"
 CREATED=0
 KEPT=0
 UPDATED=0
@@ -111,6 +112,9 @@ EOF
   keep "$d/memory/topics"
   keep "$d/memory/sessions"
   keep "$d/context"
+
+  [ -r "$RULE_TEMPLATE" ] || die "missing template: $RULE_TEMPLATE"
+  write "$d/.claude/rules/new-project.md" < "$RULE_TEMPLATE"
 
   write "$d/.gitignore" <<'EOF'
 # Application code is never copied into a brain. Clone it here while you work.

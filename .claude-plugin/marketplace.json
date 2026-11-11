@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "projects-brains",
-      "description": "Skill brains-setup: builds the brains folder structure and, optionally, private GitHub repositories",
+      "description": "Skills brains-setup, new-project and archive-project: build the brains structure, then keep every lasting request in its own project folder",
       "source": "./plugins/projects-brains",
       "category": "productivity"
     }
